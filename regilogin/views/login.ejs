@@ -1,0 +1,16 @@
+<fieldset>
+    <legend>Login Form</legend>
+    
+<form action="/users/login" method="post">
+    username:<br/>
+    <input type="text" id="username" name="username"/><br/>
+    password:<br/>
+    <input type="password" name="password" id="password"><br>
+    
+    <br/>
+    <input type="submit"  value="Login">
+
+
+</form>
+<p style='color:red;'><%= message  %></p>
+</fieldset>
